@@ -1,1 +1,1 @@
-# Email-sending-Application
+# Python Pratice
