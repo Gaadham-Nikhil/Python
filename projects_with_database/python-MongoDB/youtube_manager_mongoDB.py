@@ -1,6 +1,6 @@
 
 #from pymongo import MongoClient
-#client = MongoClient("mongodb+srv://Youtube-Manager:Nikhil123@cluster0.njq6q.mongodb.net/YT-Manager")
+#client = MongoClient("mongodb+srv://username: password@cluster0.njq6q.mongodb.net/YT-Manager")
 
 ##also we can write the import statements in this manner, instead of always writing (pymongo.MongoClient) we can directly write MongoClient by just importing MongoClient from Pymongo
 #-----------------------------------------------------------------------------------------#
@@ -8,7 +8,7 @@
 import pymongo
 from bson import ObjectId
 
-client = pymongo.MongoClient("mongodb+srv://Youtube-Manager:Nikhil123@cluster0.njq6q.mongodb.net/")
+client = pymongo.MongoClient("mongodb+srv://username: password@cluster0.njq6q.mongodb.net/")
 #not a good idea to include Id and Password in code files
 
 print(client)
